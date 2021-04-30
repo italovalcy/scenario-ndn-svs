@@ -1,3 +1,12 @@
+Scenario for ndn-svs
+====================
+
+Steps to build and run:
+
+    git clone https://github.com/italovalcy/scenario-ndn-svs
+    ./waf configure --debug
+
+
 Prerequisites
 =============
 

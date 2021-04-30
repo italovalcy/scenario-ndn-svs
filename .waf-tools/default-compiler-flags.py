@@ -140,7 +140,7 @@ class GccBasicFlags(CompilerFlags):
         flags['CXXFLAGS'] += ['-O0',
                               '-Og', # gcc >= 4.8, clang >= 4.0
                               '-g3',
-                              '-pedantic',
+                              #'-pedantic',
                               '-Wall',
                               '-Wextra',
                               # '-Werror',
@@ -156,7 +156,7 @@ class GccBasicFlags(CompilerFlags):
         flags = super(GccBasicFlags, self).getOptimizedFlags(conf)
         flags['CXXFLAGS'] += ['-O2',
                               '-g',
-                              '-pedantic',
+                              #'-pedantic',
                               '-Wall',
                               '-Wextra',
                               '-Wnon-virtual-dtor',
