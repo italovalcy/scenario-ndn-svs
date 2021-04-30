@@ -1,0 +1,3 @@
+[submodule "ndn-svs"]
+	path = ndn-svs
+	url = https://github.com/named-data/ndn-svs
